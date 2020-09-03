@@ -1,3 +1,31 @@
+/* Program to find perticular character*/
 var a="swaroopa"
 var b=a.charAt(0);
 console.log(b);
+
+/*Program to convert minutes to seconds*/
+var a=prompt("enter the minute value");
+var b=a*60;
+console.log("The convertes minute into second is" + b );
+
+
+/*program to find perticular element in array of string*/
+var a=["swaroopa", "niroopa", "laxmi", "sangeeta"];
+var b=a.indexOf("swaroopa");
+console.log(b);
+
+/*program to display element which contains only 'a' in them from an array*/
+var a=["swaroopa", "niroopa", "zzz"];
+for(var i=0; i<a.length; i++){
+    var b=a[i];
+    for(var j=0; j<b.length; j++){
+        if(b[j]=='a'){
+            console.log(b);
+        }
+    }
+
+    }
+    
+/*program to reverse the array*/
+var a=["swaroopa", "niroopa", "zzz"];
+console.log(a.reverse());
