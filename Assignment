@@ -1,0 +1,3 @@
+var a="swaroopa"
+var b=a.charAt(0);
+console.log(b);
